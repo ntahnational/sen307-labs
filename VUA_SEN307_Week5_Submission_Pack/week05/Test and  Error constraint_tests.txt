@@ -1,0 +1,9 @@
+Test1: MySQL Error (1048): Column 'dept_name' cannot be null
+
+Test2: MySQL Error (3819): Check constraint 'chk_credit_units' is violated.
+
+Test3: MySQL Error (1452): Cannot add or update a child row: a foreign key constraint fails (`vug_sen_24_11663`.`student`, CONSTRAINT `student_ibfk_1` FOREIGN KEY (`dept_id`) REFERENCES `department` (`dept_id`))
+
+Test4: MySQL Error (1265): Data truncated for column 'gender' at row 1
+
+Test5: MySQL Error (1062): Duplicate entry 'Temporary Unique Test' for key 'department.dept_name'
